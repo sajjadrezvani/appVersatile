@@ -1,6 +1,6 @@
 # Versatile app
 
--This is a App full programed and designed by me from gathering of my python programs for TNM.
+-This is an App, full programmed and designed by me, a collection of my python programs for TNM.
 <img
   src="https://github.com/Sajjad-RK/appVersatile/blob/master/pic/versatile%20(3).png"
   alt="Alt text"
