@@ -6,4 +6,6 @@
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; "
-  width="500" height="500">
+  width="400" height="500">
+
+https://meldmerge.org/ : Such a fantastic app for merging two code: Keep calm and merge!
