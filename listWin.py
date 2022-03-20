@@ -10,7 +10,7 @@ class Ui_listWin(object):
         self.window.show()
     def setupUi(self, listWin):
         listWin.setObjectName("listWin")
-        listWin.resize(340, 450)
+        listWin.resize(712, 576)
         listWin.setMinimumSize(QtCore.QSize(340, 450))
         self.centralwidget = QtWidgets.QWidget(listWin)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.Ignored)
@@ -69,6 +69,9 @@ class Ui_listWin(object):
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_2.setObjectName("pushButton_2")
         self.verticalLayout_2.addWidget(self.pushButton_2)
+        self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_6.setObjectName("pushButton_6")
+        self.verticalLayout_2.addWidget(self.pushButton_6)
         self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_5.setObjectName("pushButton_5")
         self.verticalLayout_2.addWidget(self.pushButton_5)
@@ -82,7 +85,7 @@ class Ui_listWin(object):
         self.horizontalLayout_3.addWidget(self.label_3)
         listWin.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(listWin)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 340, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 712, 21))
         self.menubar.setObjectName("menubar")
         listWin.setMenuBar(self.menubar)
 
@@ -93,10 +96,11 @@ class Ui_listWin(object):
         _translate = QtCore.QCoreApplication.translate
         listWin.setWindowTitle(_translate("listWin", "MainWindow"))
         self.label.setText(_translate("listWin", "Select your app you want to use:"))
-        self.pushButton_4.setText(_translate("listWin", "TNM emulator collapser"))
+        self.pushButton_4.setText(_translate("listWin", "TNM Emulator collapser"))
         self.pushButton.setText(_translate("listWin", "TNM DTC compartor"))
         self.pushButton_3.setText(_translate("listWin", "TNM txt constructor"))
         self.pushButton_2.setText(_translate("listWin", "TNM analyserToEmulator conventer"))
+        self.pushButton_6.setText(_translate("listWin", "TNM Emulator cutter"))
         self.pushButton_5.setText(_translate("listWin", "About me"))
         self.label_3.setText(_translate("listWin", "what exactly it does?"))
 import new2_rc
