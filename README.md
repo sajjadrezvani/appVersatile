@@ -1,5 +1,7 @@
 # Versatile app
 
+## After a while this reposetory goal and had been changed and transfered to https://github.com/sajjadrezvani/versatile_api
+
 -This is an App, full programmed and designed by me, a collection of my python programs for TNM.
 <img
   src="https://github.com/Sajjad-RK/appVersatile/blob/master/pic/versatile%20(3).png"
